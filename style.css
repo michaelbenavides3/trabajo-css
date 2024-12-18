@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+}
+
+div {
+  color: greenyellow;
+}
+
+ul>li {
+  border-top: 5px solid red;
+}
+
+h1+p {
+  font-weight: bold;
+  background-color: orange;
+  color: yellow;
+  padding: .5em;
+}
+
+* {
+  color: red;
+}
+
+#caja1 {
+  width: 1px;
+  height: 25px;
+}
+
+.caja {
+  width: 600px;
+  height: 600px;
+  background-color: aquamarine;
+  margin-top: 150px;
+  margin-right: 300px;
+  margin-bottom: 180px;
+  margin-left: 250px;
+  margin: ;
+  padding-top: 200px;
+  padding-right: 300px;
+  padding: ;
+  border: solid 200px yellow;
+  box-sizing: border-box;
+  border-radius: 0px 120px 80px 80px;
+  border-radius: 50%;
+  box-shadow: 150px -400px 20px orangered;
+
+}
+
+img {
+  /*box-shadow: 120px 100px 80px aqua;*/
+  filter: drop-shadow(30px -40px 0px blue);
+}
+
+img {
+  filter: drop-shadow(70px 40px 0px white);
+}
+
+div~#caja2 {
+  border: solid 120px purple;
+}
